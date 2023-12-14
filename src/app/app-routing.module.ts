@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: "", component: PageHomeComponent },
   { path: "my-plants", component: PageMyPlantsComponent },
   { path: "admin", component: PageAdminComponent },
+  {path: '**', component: PageNotFoundComponent}// ** grace à ça Angular identifie une route générique. A mettre à la fin, l'ordre des itinéraires est important.
 ];
 
 @NgModule({
