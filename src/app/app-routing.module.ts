@@ -4,12 +4,15 @@ import { PageAdminComponent } from "./pages/page-admin/page-admin.component";
 import { PageHomeComponent } from "./pages/page-home/page-home.component";
 import { PageMyPlantsComponent } from "./pages/page-my-plants/page-my-plants.component";
 import { PageNotFoundComponent } from "./pages/page-not-found/page-not-found.component";
+import { GifComponent } from './components/gif/gif.component';
 
 const routes: Routes = [
-  { path: "", component: PageHomeComponent },
-  { path: "my-plants", component: PageMyPlantsComponent },
+  { path: "", component: PageHomeComponent },//localhost:4200
+  { path: "my-plants", component: PageMyPlantsComponent },//http://localhost:4200/my-plants
   { path: "admin", component: PageAdminComponent },
+  {path: 'gif', component: GifComponent},
   {path: '**', component: PageNotFoundComponent}// ** grace à ça Angular identifie une route générique. A mettre à la fin, l'ordre des itinéraires est important.
+  
 ];
 
 @NgModule({
