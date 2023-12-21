@@ -4,7 +4,7 @@ import { Plant } from "../../models/plant";
 @Component({
   selector: "app-plant-list",
   templateUrl: "./plant-list.component.html",
-  styleUrls: ["./plant-list.component.scss"],
+  styleUrls: ["./plant-list.component.css"],
 })
 export class PlantListComponent implements OnInit {
   @Input() plantsRecupDeLaHome!: Plant[];

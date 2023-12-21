@@ -1,33 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Plant } from 'src/app/models/plant';
+import { Pre } from 'src/app/models/image';
+import { ImageService } from 'src/app/services/image.service';
 
 @Component({
   selector: 'app-testing',
   templateUrl: './testing.component.html',
   styleUrls: ['./testing.component.css']
 })
-export class TestingComponent implements OnInit {
+export class TestingComponent {
+  @Input() imageBla!: Pre;
 
   constructor() {}
-
-  ngOnInit(): void {
-   
-              
-    const urlApi = "https://reqres.in/api/users?page=1";
-    fetch(urlApi)
-      .then((reponse) => {
-        return reponse.json();
-      })
-      .then((reponseJson) => {
-        console.log(reponseJson);
-
-    
-      });
-    
-            
-
-  }
-
-
-
 }

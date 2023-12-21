@@ -1,0 +1,22 @@
+{
+"image" : [
+    {
+        "id": 1,
+        "nom": "montagne1",
+        "soleil": "moyen",
+        "image": "https://france3-regions.francetvinfo.fr/image/i7a20uIyZZ53hv-mmGwrTkcNAGo/930x620/regions/2023/09/29/lune-pic-du-midi-eric-carrere-6516a3c6b2595422489411.jpg"
+      },
+      {
+        "id": 2,
+        "nom": "montagne2",
+        "soleil": "bas",
+        "image": "https://hoteldelagare65.com/wp-content/uploads/2018/09/pic-du-midi-ete-1.jpg"
+      },
+      {
+        "id": 2,
+        "nom": "montagne2",
+        "soleil": "haut",
+        "image": "http://lieux.loucrup65.fr/wpimages/wpcd1a7878_05_06.jpg"
+      }
+]
+}

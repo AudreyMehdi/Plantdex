@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "api":  "json-server --watch fausse_BDD_plantdex.json",
+    "apiPerso": "json-server --watch fausse_BDD_photo.json --port 3002"
   },
   "private": true,
   "dependencies": {

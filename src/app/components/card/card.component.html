@@ -1,12 +1,12 @@
-<div class="card" style="width: 18rem">
-    <img
-      class="card-img-top"
-      src="{{ unePlanteAAfficher.image }}"
-      alt="Card image cap"
-    />
-    <div class="card-body">
-      <h5 class="card-title">{{ unePlanteAAfficher.nom }}</h5>
-      <p class="card-text">{{ unePlanteAAfficher.categorie }}</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+<div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem">
+  <img
+    class="card-img-top bou"
+    [src]=" unePlanteAAfficher.image "
+    [alt]="unePlanteAAfficher.nom"
+  />
+  <div class="card-body">
+    <h5 class="card-title text-truncate" [title] ="unePlanteAAfficher.nom">{{ unePlanteAAfficher.nom }}</h5>
+    <p class="card-text">{{ unePlanteAAfficher.categorie }}</p>
+    <a href="#" class="btn btn-success">🐕  Je l'ai ! 🐈 </a>
   </div>
+</div>

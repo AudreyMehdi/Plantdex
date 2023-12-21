@@ -14,6 +14,7 @@ import { CardComponent } from './components/card/card.component';
 import { GifComponent } from './components/gif/gif.component';
 import { TestingComponent } from './components/testing/testing.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

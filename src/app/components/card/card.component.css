@@ -1,4 +1,6 @@
-.container-plants {
-    display: flex;
+.card {
+    /* display: flex;
     flex-wrap: wrap;
+    background-image: url(src/assets/cucul.ico); */
+    opacity: 0.5;
   }
